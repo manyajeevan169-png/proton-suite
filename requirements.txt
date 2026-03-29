@@ -1,5 +1,5 @@
 streamlit
-wikipedia-api
+wikipedia
 google-generativeai
 openai
 Pillow
