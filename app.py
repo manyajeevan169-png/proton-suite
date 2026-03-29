@@ -1,5 +1,5 @@
 import streamlit as st
-import wikipediaapi
+import wikipedia
 import google.generativeai as genai
 from openai import OpenAI
 from PIL import Image
