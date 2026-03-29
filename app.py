@@ -5,6 +5,11 @@ from openai import OpenAI
 from PIL import Image
 import base64
 import io
+import google.generativeai as genai
+from openai import OpenAI
+from PIL import Image
+import base64
+import io
 
 # --- 1. SET PAGE CONFIG ---
 st.set_page_config(page_title="Proton Suite", page_icon="⚛️", layout="wide")
