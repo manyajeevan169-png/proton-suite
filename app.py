@@ -27,8 +27,6 @@ st.markdown("""
 
 # --- 2. INITIALIZE ---
 image_input, vision_btn = None, False
-wiki_wiki = wikipediaapi.Wikipedia(user_agent='ProtonSuite/1.2', language='en')
-
 gemini_model = None
 
 if "GENAI_API_KEY" in st.secrets and "OPENAI_API_KEY" in st.secrets:
